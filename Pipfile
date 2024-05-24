@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-google-genai = "*"
+google-generativeai = "*"
+python-dotenv = "*"
+pypdf2 = "*"
+faiss-cpu = "*"
+beautifulsoup4 = "*"
+fastapi = "*"
+uvicorn = "*"
+python-multipart = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.5"
